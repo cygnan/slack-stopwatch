@@ -1,7 +1,6 @@
-# discord-voice-chat-notification-bot
+# slack-stopwatch
 
-A Discord bot to notify users voice chat
- status changes
+A Slack bot that notifies users of stopwatch progress after the Amazon Dash Button is pressed.
 
 ### Getting started
 

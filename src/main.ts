@@ -15,7 +15,7 @@ const btnName = process.env.btnName || '';
 var dash_button = require('node-dash-button');
 var dash = dash_button(mac, iface, null, 'arp'); //address from step above
 dash.on("detected", function () {
-    console.log(`Amazon Dash Button${btnName != '' ? ` \`${btnName}\` `: ' '}has been pushed.`);
+    console.log(`Amazon Dash Button${btnName != '' ? ` \`${btnName}\` `: ' '}has been pressed.`);
     startStopWatch();
 });
 
