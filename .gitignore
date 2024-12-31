@@ -73,3 +73,6 @@ lib/
 
 /logs/stdout.log
 /logs/stderr.log
+
+.run
+
