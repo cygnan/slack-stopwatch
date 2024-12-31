@@ -1,7 +1,7 @@
 {
-  "name": "discord-voice-chat-notification-bot",
+  "name": "slack-stopwatch",
   "version": "0.1.0",
-  "description": "A Discord bot to notify users voice chat status changes",
+  "description": "A Slack bot that notifies users of stopwatch progress after the Amazon Dash Button is pressed",
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cygnan/discord-voice-chat-notification-bot.git"
+    "url": "git+https://github.com/cygnan/slack-stopwatch.git"
   },
   "author": "cygnan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cygnan/discord-voice-chat-notification-bot/issues"
+    "url": "https://github.com/cygnan/slack-stopwatch/issues"
   },
-  "homepage": "https://github.com/cygnan/discord-voice-chat-notification-bot#readme",
+  "homepage": "https://github.com/cygnan/slack-stopwatch#readme",
   "devDependencies": {
     "@slack/types": "^2.14.0",
     "@types/node": "^18.15.11",
